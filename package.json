@@ -1,5 +1,5 @@
 {
-  "name": "introducao-node-js",
+  "name": "intro-nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,9 +12,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5"
   },
   "devDependencies": {
+    "sequelize-cli": "^6.2.0",
     "sucrase": "^3.20.1"
   }
 }
